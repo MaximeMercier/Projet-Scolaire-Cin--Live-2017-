@@ -1,0 +1,29 @@
+.btn {
+  display: inline-block;
+  padding: 0 34px;
+  margin-right: 15px;
+
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 52px;
+
+  background-color: $color;
+  border-radius: 10px;
+}
+
+.btn-2 {
+  display: inline-block;
+  padding: 0 34px;
+
+  font-size: 18px;
+  color: #ffffff;
+  line-height: 52px;
+
+  background-color: $color-secondary;
+  border-radius: 10px;
+}
+
+.btn-down {
+  display: inline-block;
+  margin-top: 310px;
+}

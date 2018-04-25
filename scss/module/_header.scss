@@ -1,0 +1,86 @@
+.header {
+  height: 962px;
+  background: url(img/header.png) center top repeat;
+  @include background-size(cover);
+}
+
+.header-logo {
+  display: block;
+  float: left;
+  padding-top: 28px;
+  padding-right: 155px;
+
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 30px;
+}
+
+.header-baseline {
+  margin-top: 246px;
+  color: #ffffff;
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1.25;
+  display: block;
+  text-align: center;
+}
+
+.header-social {
+  position: absolute;
+  top: 40px;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 62px;
+  font-size: 18px;
+  line-height: 1.875;
+  color: #ffffff;
+  text-align: center;
+}
+
+.phone {
+  position: absolute;
+  top: 204px;
+  left: 930px;
+  height: 660px;
+}
+
+.fb {
+  position: absolute;
+  left: 1115px;
+}
+
+.in {
+  position: absolute;
+  left: 1155px;
+}
+
+.tw {
+  position: absolute;
+  left: 1205px;
+  top: 2px;
+}
+
+/*--------------------------*\
+            Menu
+\*--------------------------*/
+.menu {
+
+  font-size: 18px;
+  color: #e1e1e1;
+}
+
+.menu-item {
+  padding-left: 80px;
+  margin-top: 37px;
+  display: inline-block;
+  &:hover, &.is-active {
+    color: #ffffff;
+  }
+}
+
+.img_afi {
+  width: 300px;
+  height: 400px;
+}

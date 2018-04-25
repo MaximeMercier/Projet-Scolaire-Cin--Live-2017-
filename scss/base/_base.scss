@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 1.875;
+  color: #aeaeae;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.25;
+  color: #353854;
+}
+
+.cb {
+  clear: both;
+}
+
+.tabl1 {
+  width: 100px;
+  text-align: center;
+}
+
+.tabl2 {
+  width: 450px;
+  text-align: center;
+}
+
+.tablimg {
+  img {
+    width: 100px;
+    height: 150px;
+  }
+  line-height: 0 !important;
+}
+
+.tableau {
+  border-collapse: collapse;
+  td {
+    border: 2px solid $color-secondary;
+  }
+}
